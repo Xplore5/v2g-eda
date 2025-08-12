@@ -1,4 +1,4 @@
-DATE,PERIOD,temp,dwpt,rhum,prcp,snow,wdir,wspd,wpgt,pres,tsun,coco,cloudcover (%),shortwave_radiation (W/m?¡¤h)
+DATE,PERIOD,temp,dwpt,rhum,prcp,snow,wdir,wspd,wpgt,pres,tsun,coco,cloudcover (%),shortwave_radiation (W/m^2Â·h)
 2024/1/1,1,25,25,100,0,,21,3.6,,1011,,3,100,0
 2024/1/1,2,25,25,100,0,,21,3.6,,1011,,3,100,0
 2024/1/1,3,25,25,100,0,,21,3.6,,1011,,3,100,0
@@ -17567,3 +17567,4 @@ DATE,PERIOD,temp,dwpt,rhum,prcp,snow,wdir,wspd,wpgt,pres,tsun,coco,cloudcover (%
 2024/12/31,46,26,24,89,0,,30,11.2,,1011,,3,100,0
 2024/12/31,47,26,24,89,0,,30,11.2,,1011,,3,100,0
 2024/12/31,48,26,24,89,0,,25,11.2,,1011,,3,100,0
+
