@@ -1119,6 +1119,15 @@ class DemandResponseForecaster:
             })
             performance_df.to_csv('./Outputs/anomaly_detection_performance.csv', index=False)
             
+            # Update the performance_metrics attribute for use in summary
+            self.performance_metrics = {
+                'precision': best_precision,
+                'recall': best_recall,
+                'f1_score': best_score,
+                'threshold': best_threshold,
+                'model_type': best_model_type
+            }
+            
             return True
         else:
             print("No suitable anomaly detection model found.")
