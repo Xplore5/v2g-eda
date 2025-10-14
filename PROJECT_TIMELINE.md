@@ -83,7 +83,7 @@ This project focuses on Vehicle-to-Grid (V2G) Electric Vehicle (EV) charging dat
 
 ---
 
-## Phase 2.1: LLM-Enhanced Persona Generation (March 2025)
+## Phase 2.1: LLM-Enhanced Persona Generation
 
 ### LLM Feature Generation.ipynb - Advanced Persona Enhancement
 
@@ -411,5 +411,8 @@ This project focuses on Vehicle-to-Grid (V2G) Electric Vehicle (EV) charging dat
 ---
 
 *Project Timeline Completed: V1 - Oct 2025 | V2 - TBD*
+
 *Team: Xplore5* **[Xie Fei, Alan Ruan, Zhai Yifan, Aamir Syed]**
+
+
 *Primary Technologies: Python, TensorFlow, scikit-learn, Pandas, Ollama (for the local LLM)*
