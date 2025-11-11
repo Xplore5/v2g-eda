@@ -1,3 +1,15 @@
+## How Simulation Works
+
+> **Goal** : For a given week and scenario, estimate:
+>
+> * Peak and average **net load profile** (charging – V2G export)
+> * **Max number of EV cars/buses** that can be supported under grid/charger constraints with acceptable risk
+> * **Battery degradation & replacement cadence** under different V2G strategies
+>
+>   using a **Monte-Carlo simulation** of vehicle usage, charging, and V2G dispatch.
+
+We simulate at e.g. **Δt = 15 min or 30 min** over 7 days (T = 7×24×(60/Δt) steps).
+
 ## System Architecture & Design
 
 This section outlines the proposed software architecture for the simulation engine. The design emphasizes modularity, configurability, and extensibility, adhering to the non-functional requirements.
